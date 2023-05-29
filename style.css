@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(184, 238, 250);
+}
+
+.section1{
+    background-color: #efd0ff;
+}
+
+.section2{
+    background-color: rgb(246, 250, 212);
+}
+
+.section3{
+    background-color: #f5b6ca;
+}
+
+.con{
+    margin-top: 8px;
+    padding: 8px;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{
+    width: 50%;
+}
+
+.section1{
+    max-height: 100vh;
+    color: #9b13df;
+}
+
+.dancing{
+    width: 400px;
+}
+
+
+.topright .dan{
+    width: 450px;
+}
+
+.section2{
+    padding: 73px;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(120,54,16);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+ .section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+ }
+ .section3 table td{
+    border-bottom: 2px solid black;
+ }
+
+ .section3 h1{
+    font-size: 2.3rem;
+ }
+
+ .section3{
+    padding: 73px;
+ }
+
+ footer{
+    padding: 23px;
+    text-align: center;
+ }
+
+ .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+   
+ }
+
+ .deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+ }
+
+ /* Media query for screens smaller than 768px */
+@media (max-width: 767px) {
+    .container {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  
+    .topleft, .topright {
+      width: 100%;
+    }
+  
+    .topleft {
+      margin-bottom: 30px;
+    }
+  
+    .dancing {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .topright .dan {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .section2 p {
+      padding: 0;
+    }
+  
+    .section2, .section3 {
+      padding: 30px;
+    }
+  
+    .box {
+      margin: 12px 0;
+    }
+  
+    .section3 table {
+      width: 100%;
+    }
+  
+    .section3 table th {
+      width: auto;
+    }
+  }
+  
+  /* Media query for screens between 768px and 1023px */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+      max-width: 90vw;
+    }
+  }
+  
+  /* Media query for screens larger than 1023px */
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 80vw;
+    }
+  }
